@@ -1,0 +1,123 @@
+.containerPageCulture{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    text-align: start;
+    padding: 20px;
+}
+.breadcrum{
+    padding: 10px 0;
+}
+.colorspan{
+    color: #df5b17;
+}
+
+.topPage{
+    width: 100%;
+}
+.topPage img{
+    width: 100%;
+}
+.containerContainer{
+padding: 0 30px;
+}
+
+.containerHoliday{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 13px 22px -12px rgba(99,99,99,1);
+    -moz-box-shadow: 0px 13px 22px -12px rgba(99,99,99,1);
+    box-shadow: 0px 13px 22px -12px rgba(99,99,99,1);
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .month-selector {
+    /* display: flex;
+    gap: 8px;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .month-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  .month-btn.active {
+    background: #df5b17;
+    color: white;
+  }
+  
+  .month-btn.disabled {
+    background: #eee;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .day {
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f5f5f5;
+  }
+  
+  .day.highlight {
+    background: #df5b17;
+    color: white;
+  }
+  
+  .containerHoliday .slider {
+    padding: 20px;
+    background-color: #e3a134;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Asegura que el contenedor no se expanda más allá de lo necesario */
+    height: auto; /* Permite que el contenido se ajuste */
+}
+
+.containerHoliday .slider img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    max-height: 100%; /* La imagen se ajustará a la altura disponible */
+    width: auto; /* Mantiene la proporción de la imagen */
+    height: auto; /* Ajusta la altura según el ancho */
+    object-fit: contain; /* Asegura que la imagen se muestre completamente sin recortes */
+}
+
+.btnBlack{
+ color: white;
+ background: black;
+ padding: 8px 15px;
+ text-transform: uppercase;
+ border-radius: 15px;
+ margin-top: 15px;
+ width: 20%;
+}
